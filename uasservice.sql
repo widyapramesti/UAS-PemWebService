@@ -1,5 +1,5 @@
 ﻿# Host: localhost  (Version 5.5.5-10.1.10-MariaDB)
-# Date: 2018-06-27 15:17:38
+# Date: 2018-06-27 16:29:06
 # Generator: MySQL-Front 6.0  (Build 2.20)
 
 
@@ -28,7 +28,7 @@ CREATE TABLE `mahasiswas` (
 # Data for table "mahasiswas"
 #
 
-INSERT INTO `mahasiswas` VALUES (1,'1512504567','juki','fti','pria','si','islam','089667455245','cipondoh','2018-06-27 13:38:04','2018-06-27 15:00:37',NULL),(4,'1512501234','Widya','fti','wanita','si','islam','08975126357','ciputat','2018-06-27 14:29:15','2018-06-27 15:03:47',NULL),(5,'1512507886','rani','fti','wanita','si','islam','08977891341','jakarta','2018-06-27 14:29:21','2018-06-27 15:04:40',NULL),(6,'1512500628','rafly aswin','fti','pria','si','islam','089667453779','maharta','2018-06-27 14:30:15','2018-06-27 14:30:15',NULL);
+INSERT INTO `mahasiswas` VALUES (1,'1512502400','Pramesti','fti','wanita','si','islam','08976765432','bungur','2018-06-27 13:38:04','2018-06-27 16:20:11',NULL),(4,'1512501234','Widya','fti','wanita','si','islam','08975126357','ciputat','2018-06-27 14:29:15','2018-06-27 15:03:47',NULL),(6,'1512500628','rafly aswin','fti','pria','si','islam','089667453779','maharta','2018-06-27 14:30:15','2018-06-27 14:30:15',NULL),(7,'1512501111','Jalu','fti','Laki','ti','islam','08976765432','jakarta','2018-06-27 16:21:13','2018-06-27 16:21:13',NULL);
 
 #
 # Structure for table "migrations"
