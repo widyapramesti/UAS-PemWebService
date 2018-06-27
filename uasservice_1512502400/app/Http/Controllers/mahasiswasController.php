@@ -43,7 +43,7 @@ class mahasiswasController extends Controller
 	}
 	
 	public function update(Request $request, $nim){
-		$data = ModelMhs::where('id',$nim)->first();
+		$data = ModelMhs::where('nim',$nim)->first();
 		$data->nim = $request->input('nim');
 		$data->nm_mhs = $request->input('nm_mhs');
 		$data->fakultas = $request->input('fakultas');
@@ -58,7 +58,7 @@ class mahasiswasController extends Controller
 	}
 
 	public function destroy($nim){
-		$data = ModelMhs::where('id',$nim)->first();
+		$data = ModelMhs::where('nim',$nim)->first();
 		$data->delete();
 
 		return response('Berhasil Menghapus Data');
